@@ -40,6 +40,9 @@ require('lazy').setup {
   require 'plugins.indent-blankline',
   require 'plugins.misc',
   require 'plugins.blade-nav',
+  require 'plugins.persistence',
+  require 'plugins.snacks',
+  require 'plugins.treesiter-textobjects',
 }
 require('nvim-treesitter.configs').setup {
   playground = {
